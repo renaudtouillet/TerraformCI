@@ -33,4 +33,5 @@ resource "azurerm_storage_account" "storage01" {
   resource_group_name           = azurerm_resource_group.rg.name
   public_network_access_enabled = false
 
+
 }
